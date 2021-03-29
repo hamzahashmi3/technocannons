@@ -1,0 +1,18 @@
+  .themeColor {
+      color:"rgb(50, 130, 184)";
+      font-size:"40px";
+  }
+  
+  .section-1 {
+    height: 915px;
+    width: 100%;
+    background-color: rgb(44, 44, 44);
+    /* background-image: url("./images/bg-particle1.png"); */
+  }
+  @media screen and (min-width:576px){
+    .section-1 {
+        height: 760px;
+        width: 100%;
+        background-color: rgb(44, 44, 44);
+      }
+  }

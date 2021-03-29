@@ -1,0 +1,152 @@
+body {
+    overflow-x: hidden;
+
+}
+
+.contact_img {
+    background-image: url('./banners-33.png');
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    height: 350px;
+    background-color: #0f4c75;
+
+}
+
+.about_head {
+    font-weight: 900;
+}
+
+ul {
+    display: flex;
+    padding: 10px;
+
+}
+
+ul li {
+    list-style: none;
+    margin: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.weight {
+    font-weight: 800;
+}
+
+.abt {
+    color: #f9b31f;
+    font-variant: small-caps;
+}
+
+.inv_imgs img {
+    height: 225px;
+    widows: 200px;
+}
+/* 
+.bg {
+    background-color: #333132;
+    color: #fff;
+    width: 100%;
+} */
+
+.fst11_img {
+    position: absolute;
+    left: 0;
+
+}
+
+.scnd2_img {
+   
+    float: left;
+}
+
+.bg_img-2 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}
+
+.headtxt1,
+.headtxt2,
+.headtxt3,
+.headtxt4,
+.headtxt5,
+.headtxt6 {
+    height: 105px;
+    cursor: pointer;
+    border: 1px solid #fff;
+    text-align: center;
+    font-size: 55px;
+}
+
+.headtxt1:hover {
+    background-color: #0f4c75;
+    border: 1px solid #f9b31f;
+    transition: all 0.4s ease-in;
+
+}
+
+.headtxt2:hover {
+    background-color: #0f4c75;
+    border: 1px solid #f9b31f;
+    transition: all 0.4s ease-in;
+}
+
+.headtxt3:hover {
+    background-color: #0f4c75;
+    border: 1px solid #f9b31f;
+    transition: all 0.4s ease-in;
+}
+
+.headtxt4:hover {
+    background-color: #0f4c75;
+    border: 1px solid #f9b31f;
+    transition: all 0.4s ease-in;
+}
+
+.arrow:hover {
+    color: #f9b31f;
+    transition: 0.5s ease;
+    margin-left: 10px;
+}
+
+.right-box {
+    background-color: #0f4c75;
+    border: 2px solid #0f4c75;
+    padding: 25px;
+    color: #fff;
+    border-bottom-left-radius: 50px 50px;
+    border-bottom-right-radius: -20px -50px;
+    border-top-left-radius: -10px 50px;
+}
+
+.team_memebers:hover {
+    background-color: #f5f5f5;
+    box-shadow: 0 0 75px rgba(0, 0, 0, 0.2);
+
+}
+
+.bg-clr {
+    background: linear-gradient(to right, #141d38, darkblue);
+    color: #fff;
+}
+
+h1 {
+    font-weight: 800;
+}
+
+.bg_p {
+    background-color: #0f4c75;
+    color: #0f4c75;
+}

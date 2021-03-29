@@ -1,0 +1,217 @@
+body{
+    background: #f5f5f5;
+    overflow-x: hidden;
+
+}
+
+.header_img{
+    background-image: url('./banners-34.png');
+    height: 560px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.h_text-9{
+    font-weight: 800;
+    font-size: 70px;
+}
+.h_text-10{
+     color: #0f4c75;   
+}
+
+.headtxt11, .headtxt12, .headtxt13,
+.headtxt14, .headtxt15{
+    height: 130px;
+    cursor: pointer;
+    color: #fff;
+    border: 1px solid #fff;
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+.headtxt11:hover {
+    background-color: #0f4c75;
+    border: 1px solid #f9b31f;
+    transition: all 0.4s ease-in;
+
+}
+
+.headtxt12:hover {
+    background-color: #0f4c75;
+    border: 1px solid #f9b31f;
+    transition: all 0.4s ease-in;
+}
+
+.headtxt13:hover {
+    background-color: #0f4c75;
+    border: 1px solid #f9b31f;
+    transition: all 0.4s ease-in;
+}
+
+.headtxt14:hover {
+    background-color: #0f4c75;
+    border: 1px solid #f9b31f;
+    transition: all 0.4s ease-in;
+}
+.headtxt15:hover{ 
+    background-color: #0f4c75;
+    border: 1px solid #f9b31f;
+    transition: all 0.4s ease-in;
+}
+
+
+.main_img{
+    background-image: url('./techn0Cues-banners-01.png');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+}
+.img1{
+    height: 80%;
+    width: 80%;  
+    margin: auto;
+    opacity: 0.25;
+}
+.heading-1{
+    font-weight: 800;
+}
+.block h4{
+    font-weight: 700;
+}
+.block-para{
+    position: absolute;
+    margin: auto;
+    bottom: 0%;
+    right: 6%;
+    font-weight: 700;
+    font-size: 45px;
+    color: #ddd;
+}
+.icon-1{
+    position: absolute;
+    top: 34%;
+    font-size: 28px;
+}
+.authentication{
+    border: 1px solid #ddd;
+}
+.authentication:hover{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transition: 0.4s ease-in-out;
+    border: none;
+}
+.audacity{
+    border: 1px solid #ddd;
+}
+.audacity:hover{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transition: 0.4s ease-in-out;
+    border: none;
+}
+.affordable{
+    border: 1px solid #ddd;
+}
+.affordable:hover{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transition: 0.4s ease-in-out;
+    border: none;
+}
+
+
+i{
+    color: #fff;
+    font-size:20px;
+}
+.sec-3{
+    background: #333132;
+    color: #fff;
+    
+}
+.sec-3 h1{
+    font-weight: 800;
+    
+}
+.spa{
+    color: #3282b8;
+    font-weight: 900;
+}
+.inv_imgs img{
+    height: 225px;
+    widows: 200px;
+}
+.h1{
+    font-weight: 700;
+}
+.im-4{
+    height: 600px;
+}
+
+.sec-5{
+    background-color: #eee;
+}
+.sec-5 h1{
+    font-weight: 800;
+    
+}
+.right-box{
+    background-color: #0f4c75;
+     border: 2px solid #0f4c75;
+      padding: 25px;
+      border-bottom-left-radius: 50px 50px;
+      border-bottom-right-radius: -20px -50px;
+      border-top-left-radius: -10px 50px;
+}
+.contact_img{
+    background-image: url('./banners-34.png');
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    height: 350px;
+    background-color: #0f4c75;
+    
+}
+.team_memebers:hover{
+    background-color: #f5f5f5;
+    box-shadow: 0 0 75px rgba(0,0,0,0.2);
+    
+}
+.icon-block{
+    text-align: center;
+    padding: 5px;
+}
+.icon-block:hover{
+    background-color: #141d38;
+    cursor: pointer;
+    display: block;
+    color: #fff;
+    
+}
+
+
+
+
+/* For Mobile Screen Settings */
+
+@media only screen and (max-width: 600px){
+    .header_img{
+        height: 1300px;
+    }
+}
+
+@media only screen and (max-width: 882px){
+    .header_img{
+        height: 1300px;
+    }
+}
+
+

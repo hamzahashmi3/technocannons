@@ -1,0 +1,84 @@
+
+
+
+
+h6{
+    color: #3282b8;
+}
+h1{
+    font-weight: 800;
+}
+h2{
+    font-weight: 700;
+}
+
+.icon-1{
+    position: absolute;
+    top: 34%;
+    font-size: 28px;
+}
+.authen:hover{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    border: none;
+}
+.auda:hover{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    border: none;
+}
+.afford:hover{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    border: none;
+}
+.block h4{
+    font-weight: 700;
+}
+.block-para{
+    position: absolute;
+    margin: auto;
+    bottom: 0%;
+    right: 6%;
+    font-weight: 700;
+    font-size: 45px;
+    color: #ddd;
+}
+
+.back-color{
+    background-color: #1b262c;
+}
+
+.arrow:hover {
+    color: #f9b31f;
+    transition: 0.5s ease;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.right-box {
+    background: linear-gradient(to right, #0f4c75, #3282b8);
+    padding: 25px;
+    color: #fff;
+    border-bottom-left-radius: 50px 50px;
+    border-bottom-right-radius: -20px -50px;
+    border-top-left-radius: -10px 50px;
+}
+.plan-card:hover{
+    background: #0f4c75;
+    cursor: pointer;
+}
+.dollar{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
