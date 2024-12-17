@@ -27,7 +27,7 @@ function Header() {
 
                 <NavDropdown title="Services" id="collasible-nav-dropdown" className=" bg-dark mt-1 small">
                     <NavDropdown.Item to="/logodesign" className="text-dark"><Nav.Link to="/logodesign" className="nav-links nav-item text-dark"><Link to="/logodesign" className="text-dark small">Logo Designing</Link></Nav.Link></NavDropdown.Item>
-                    <NavDropdown.Item to="/graphicdesign" className="text-dark"><Nav.Link to="/graphicdesign" className="nav-links nav-item text-dark"><Link to="/graphicdesign" className="text-dark small">Graphic Designing</Link></Nav.Link></NavDropdown.Item>
+                    {/* <NavDropdown.Item to="/graphicdesign" className="text-dark"><Nav.Link to="/graphicdesign" className="nav-links nav-item text-dark"><Link to="/graphicdesign" className="text-dark small">Graphic Designing</Link></Nav.Link></NavDropdown.Item> */}
                     <NavDropdown.Item to="/contentwriting" className="text-dark"><Nav.Link to="/contentwriting" className="nav-links nav-item text-dark"><Link to="/contentwriting" className="text-dark small">Content Writing</Link></Nav.Link></NavDropdown.Item>
                     <NavDropdown.Item to="/wevdev" className="text-dark"><Nav.Link to="/wevdev" className="nav-links nav-item text-dark"><Link to="/webdev" className="text-dark small">Web Design & Development</Link></Nav.Link></NavDropdown.Item>
                     <NavDropdown.Item to="/graphicdesign" className="text-dark"><Nav.Link to="/graphicdesign" className="nav-links nav-item text-dark"><Link to="/digitalmarketing" className="text-dark small">Digital Marketing</Link></Nav.Link></NavDropdown.Item>
