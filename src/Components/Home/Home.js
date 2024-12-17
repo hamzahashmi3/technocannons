@@ -7,36 +7,38 @@ function Home() {
 return (
 <div>
 
-    <section class="sec-1 mb-5">
+    <section class="mb-5">
         <div class="row header_img">
             <div class="container">
                 <h6 class="text-white text-center mt-5 pt-5">Designers of the visible.</h6>
                 <h1 class="text-center mt-3 h_text-9">FINEST <br /> TECH SOLUTIONS</h1>
             </div>
-
-            <div class="col-md-2 m-auto headtxt11">
-                <i class="fa fa-edit small"></i>
-                <h6 className="text-light"> Graphic <br /> Design </h6>
-            </div>
-            <div class="col-md-2 m-auto headtxt12">
-                <i class="fa fa-code"></i>
-                <h6 className="text-light"> Web Design <br /> Development </h6>
-            </div>
-            <div class="col-md-2 m-auto headtxt13">
-                <i class="fa fa-mobile"></i>
-                <h6 className="text-light"> App Design <br /> Development </h6>
-            </div>
-            <div class="col-md-2 m-auto headtxt14">
-                <i class="fa fa-facebook"></i>
-                <h6 className="text-light"> Digital <br /> Marketing </h6>
-            </div>
-            <div class="col-md-2 m-auto headtxt15">
-                <i class="fa fa-eercast"></i>
-                <h6 className="text-light"> Content <br /> Writing </h6>
-            </div>
+                <div class="container row ">
+                    <div class="col-md-2 m-auto headtxt11">
+                        <i class="fa fa-edit small"></i>
+                        <h6 className="text-light"> Graphic <br /> Design </h6>
+                    </div>
+                    <div class="col-md-2 m-auto headtxt12">
+                        <i class="fa fa-code"></i>
+                        <h6 className="text-light"> Web Design <br /> Development </h6>
+                    </div>
+                    <div class="col-md-2 m-auto headtxt13">
+                        <i class="fa fa-mobile"></i>
+                        <h6 className="text-light"> App Design <br /> Development </h6>
+                    </div>
+                    <div class="col-md-2 m-auto headtxt14">
+                        <i class="fa fa-facebook"></i>
+                        <h6 className="text-light"> Digital <br /> Marketing </h6>
+                    </div>
+                    <div class="col-md-2 m-auto headtxt15">
+                        <i class="fa fa-eercast"></i>
+                        <h6 className="text-light"> Content <br /> Writing </h6>
+                    </div>
+                </div>
         </div>
 
-    </section> <br />
+    </section> 
+    <br />
 
 
 
