@@ -12,21 +12,14 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: '3.x'  # Python version specify karein
-
-    - name: Install dependencies
+    - name: Update README with current date
       run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt  # Agar aapke project mein requirements.txt hai
+        echo -e "\n## Last Updated: $(date +'%Y-%m-%d %H:%M:%S')" >> README.md
 
     - name: Make a daily commit
       run: |
-        git config --global user.name "GitHub Actions"
-        git config --global user.email "actions@github.com"
-        echo "# Daily Commit" >> README.md  # README.md file mein kuch changes karein
+        git config --global user.name "hamzahashmi3"
+        git config --global user.email "technocannons3@gmail.com"
         git add README.md
-        git commit -m "Daily commit by GitHub Actions"
+        git commit -m "Daily commit: Updated README with current date"
         git push
